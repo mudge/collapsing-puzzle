@@ -1,0 +1,40 @@
+% This is the description of the grid sample one of the collapse game
+% The format of the file is as follow:
+% All lines starting with '%' are comments and should not been taken into account.
+% In general, there is one tag per line followed by there values (on the same line).
+% The content of the puzzle is given between the tags 'Begin' and 'End', with one row per line
+% and each column separated by a space. The rows are given from top to bottom.
+%
+% There is two types of puzzle, the basic puzzle and the feeding row puzzle. The type of puzzle is
+% defined by the tag 'Type:' followed by the values 'Basic' or 'Feeding'.
+% In the case of the feeding row puzzle, the last row correspond to the first feeding row.
+%
+% The size of the puzzle is defined by two tags 'Rows:' and 'Columns' followed by there respective values
+%
+% The color of a block (e.g color) is given by:
+% (e)mpty, (b)lue, (g)reen, (r)ed, (y)ellow, (w)hite, (p)latform and (i)ndestructible.
+% The color of a bomb is given by:
+% (B)lue, (G)reen, (R)ed, (Y)ellow, (W)hite and (S)uper bomb.
+
+
+Type: Basic
+Rows: 16
+Columns: 12
+Begin
+e e e e e e e e e e e e
+e e e e e e e e e e e e
+e e e e e e e e e e e e
+e e e e e e e e e e e e
+e e e e e e e e e e e e
+e e e e e e e e e e e e
+e e e e e e e e e e e e
+e e e e e e e e e e e e
+e e e e e e e e e e e e
+e e e e e e e e e e e e
+e e e e e e e e e e e e
+e G e R e e e e e Y e e
+b r e r b r e e e r b e
+r b e b r b B e e b W e
+b r e r S r b e b r b e
+b b r b b r r b r r b b
+End
